@@ -1,0 +1,110 @@
+.container {
+  max-width: 375px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: var(--DarkBlue);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.container > * + * {
+  margin-top: 1.325rem;
+}
+
+h1 {
+  color: var(--White);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+p {
+  letter-spacing: 0.7px;
+  line-height: 1.4;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+li,
+.icon img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(216, 12%, 8%, 0.473);
+  font-weight: 700;
+  filter: brightness(90%) contrast(55%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+  filter: brightness(100%) contrast(80%);
+  transition: all 0.1s ease-in-out;
+}
+
+.rate-clicked {
+  background-color: var(--LightGrey);
+  color: var(--White);
+  filter: brightness(100%) contrast(80%);
+}
+
+.rate-clicked:hover {
+  background-color: var(--LightGrey);
+  transition: all 0.1s ease-in-out;
+}
+
+.icon img {
+  padding: 1rem;
+}
+
+/* Btn */
+
+a {
+  background-color: var(--Orange);
+  color: var(--White);
+  display: block;
+  border-radius: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.6rem 0;
+}
+
+a:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+  transition: all 0.2s ease-in-out;
+}
+
+/* 
+====================================
+  Card success
+====================================
+*/
+
+.img-thanks img {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.message {
+  display: inline-flex;
+  color: var(--Orange);
+  background-color: hsla(216, 12%, 8%, 0.473);
+  filter: brightness(120%) contrast(55%);
+  padding: 0.75rem 2rem;
+  border-radius: 2em;
+  margin: 2rem 0 1.125rem;
+}
