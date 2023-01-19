@@ -8,8 +8,8 @@ function App() {
     <>
       <main>
         <Routes>
-          <Route path="/interactive-rating-component/" element={<CardRating />} />
-          <Route path="/interactive-rating-component/success/" element={<CardSuccess />} />
+          <Route path="/" element={<CardRating />} />
+          <Route path="/success/" element={<CardSuccess />} />
         </Routes>
       </main>
     </>

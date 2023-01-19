@@ -43,7 +43,7 @@ const CardRating = () => {
         </ul>
 
         <div className="submit">
-          <Link to="/interactive-rating-component/success/" state={{ ratePass: { rate } }}>
+          <Link to="/success/" state={{ ratePass: { rate } }}>
             Submit
           </Link>
         </div>

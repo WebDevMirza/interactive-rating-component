@@ -25,3 +25,6 @@ dist-ssr
 
 # mine
 fm
+
+# Local Netlify folder
+.netlify
